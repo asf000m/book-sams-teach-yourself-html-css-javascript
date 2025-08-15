@@ -1,0 +1,23 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12pt;
+}
+header {
+  text-align: center;
+}
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 28pt;
+  text-align: center;
+}
+.contact-info {
+  font-size: 14pt;
+}
+.category-label {
+  font-size: 12pt;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.indented {
+  margin-left: 25px;
+}
