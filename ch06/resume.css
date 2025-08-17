@@ -1,5 +1,9 @@
+@font-face {
+  font-family: "Mozilla Headline";
+  src: local("Mozilla Headline"), url(https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700);
+}
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Mozilla Headline", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12pt;
 }
 header {
