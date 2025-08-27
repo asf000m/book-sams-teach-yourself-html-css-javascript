@@ -4,12 +4,33 @@
     <meta charset="utf-8">
     <title>Index</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      #link {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        
+        &:link {
+          color: #6479A0;
+        }
+        &:visited {
+          color: #cccccc;
+        }
+        &:hover, &:focus, &:active {
+          color: #e03a3e;
+        }
+      }
+    </style>
   </head>
   <body>
     <h1>Lorem ipsum dolor</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia accusamus debitis neque veniam, aperiam fugiat quibusdam eum aut magni eligendi rem corrupti corporis animi obcaecati beatae quae atque nisi iusto.</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia beatae assumenda eveniet velit quod quia perspiciatis est, voluptatem doloremque, cupiditate voluptatum voluptatibus animi, atque dolor blanditiis tempore asperiores vero dignissimos.</p>
-    <a href="../ch06/chapter6.html">ch06</a>
-    <a href="../ch03/chapter3.html">ch03</a>
+    <p><a href="../ch06/chapter6.html" target="newWindow">ch06</a></p>
+    <p><a id="link" href="../ch03/chapter3.html" title="This is the page for chapter 3">ch03</a></p>
+    <p><a href="historyquiz.html" download>historyquiz.html</a></p>
+    <p><a href="Index.pdf">index.pdf</a></p>
+    <p><a href="https://www.google.com/" target="_blank">Go to Google</a></p>
+    <p><a href="mailto:bon@soir.com">good-night greeting</a></p>
   </body>
 </html>
