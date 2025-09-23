@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 10</title>
+    <style>
+      div {
+        position: absolute;
+        width: 300px;
+        height: 175px;
+        font-weight: bold;
+        text-align: center;
+        color: gray;
+        border: 3px solid lightseagreen;
+      }
+      #d1 {
+        left: 0px;
+        top: 0px;
+        background-color: lightblue;
+        
+        &:hover {
+          z-index: 1;
+        }
+      }
+      #d2 {
+        left: 100px;
+        top: 100px;
+        background-color: lightpink;
+
+        &:hover {
+          z-index: 1;
+        }
+      }
+      #d3 {
+        left: 200px;
+        top: 200px;
+        background-color: lightgoldenrodyellow;
+
+        &:hover {
+          z-index: 1;
+        }
+      }
+      #d4 {
+        left: 300px;
+        top: 300px;
+        background-color: lightgreen;
+
+        &:hover {
+          z-index: 1;
+        }
+      }
+      #d5 {
+        left: 400px;
+        top: 400px;
+        overflow: scroll;
+        background-color: lightsalmon;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="d1">DIV #1</div>
+    <div id="d2">DIV #2</div>
+    <div id="d3">DIV #3</div>
+    <div id="d4">DIV #4</div>
+    <div id="d5"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quidem maiores a optio tenetur. Sapiente illo optio alias dolorem esse fugiat rem. Dolor, repudiandae enim! Nostrum quia quaerat natus beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt tempore consequuntur repudiandae, quos dolorem quisquam at obcaecati quidem ea ducimus quis alias sapiente quo nobis itaque veniam, eos reprehenderit distinctio!</p></div>
+    </html>
+  </body>
