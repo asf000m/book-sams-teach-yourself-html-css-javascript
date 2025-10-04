@@ -18,4 +18,6 @@
 <h4>Lesson 8. Working with Colors, Images, and Multimedia - <em>Completed 2025-08-31</em></h4>
 <h4>Lesson 9. Working with Margins, Padding, Alignment, and Floating - <em>Completed 2025-09-19</em></h4>
 <h4>Lesson 10. Understanding the CSS Box Model and Positioning - <em>Completed 2025-09-22</em></h4>
+<h4>Lesson 11. Using CSS to Do More with Lists, Text, and Navigation</h4>
+<h4>Lesson 12. Creating Layouts Using Modern CSS Techniques - <em>Completed 2025-10-04</em></h4>
 

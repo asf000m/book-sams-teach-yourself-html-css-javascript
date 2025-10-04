@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 12</title>
+    <style>
+      .container {
+        display: flex;
+        width: 100%;
+      }
+      #main,
+      #secondary,
+      #tertiary {
+        height: 400px;
+        vertical-align: middle;
+      }
+      #main {
+        background-color: lightcoral;
+      }
+      #secondary {
+        order: -1;
+        width: 200px;
+        background-color: lightgreen;
+      }
+      #tertiary {
+        width: 125px;
+        background-color: lightblue;
+      }
+      header,
+      footer {
+        text-align: center;
+        background-color: lightpink;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <pre>
+        Lorem ipsum
+        Dolor Sit Amet
+        Consectetur Adipisicing Elit!
+      </pre>
+    </header>
+    <div class="container">
+      <div id="main"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus natus, quibusdam officia dolores ut quis itaque dolor libero, rerum harum, blanditiis numquam eveniet repellendus? Facere fuga deleniti voluptatem quam earum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore tempore nemo obcaecati eius praesentium quam, eum dolorum hic ipsam aliquam dignissimos, deserunt aspernatur corrupti error suscipit alias, laudantium itaque. Magnam.</p>
+      </div>
+      <div id="secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, temporibus suscipit id deserunt corrupti commodi soluta omnis dolor fuga earum, sequi sunt aspernatur. Voluptatem nesciunt corrupti incidunt cumque magnam non.</div>
+      <div id="tertiary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio id tenetur voluptatibus, porro provident atque dolor tempore distinctio illo. Animi aspernatur aut aperiam debitis. Quod, iure. Consequatur illum deleniti minus.</div>
+    </div>
+    <footer>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam hic accusantium ex, beatae ut asperiores aut perferendis corporis commodi sunt voluptas aspernatur assumenda maxime maiores officiis expedita quis adipisci harum!</p>
+    </footer>
+  </body>
+</html>

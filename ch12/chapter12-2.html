@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en=us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 12</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        display: grid;
+        grid-template-columns: 
+          /*  column 1    column 2    column 3*/
+              10%         3fr         1fr;
+        grid-template-rows:
+          /*  row 1 */    20dvh
+          /*  row 2 */    70dvh
+          /*  row 3 */    10dvh;
+        grid-template-areas:
+          "header  header  header"
+          "nav     main    aside"
+          "footer  footer  footer";
+      }
+      header,
+      footer,
+      nav,
+      main,
+      aside {
+        padding: 1rem;
+      }
+      header {
+        grid-area: header;
+        background-color: lightblue;
+      }
+      footer {
+        grid-area: footer;
+        background-color: lightskyblue;
+      }
+      nav {
+        grid-area: nav;
+        background-color: lightseagreen;
+      }
+      main {
+        grid-area: main;
+        background-color: snow;
+      }
+      aside {
+        grid-area: aside;
+        background-color: lightgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>header</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eligendi cupiditate animi adipisci dolores amet harum id voluptatibus sequi reiciendis deleniti consequuntur, et corporis. Odio pariatur quis quidem quam illum.</p>
+    </header>
+    <nav>
+      <h2>nav</h2>
+      <a href="#">link</a>
+      <a href="#">link</a>
+      <a href="#">link</a>
+      <a href="#">link</a>
+    </nav>
+    <main>
+      <h2>main</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi magnam porro quibusdam voluptatum assumenda maiores molestias aperiam voluptates debitis corrupti, omnis aut facere nam. Tempora obcaecati eum sit labore suscipit.</p>
+      <section>
+        <h3>section</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt libero explicabo numquam minima accusantium, alias quaerat totam! Ex cupiditate unde quam, fuga doloribus pariatur amet laboriosam, excepturi vel minima soluta!</p>
+      </section>
+      <section>
+        <h3>section</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium aliquam, quibusdam debitis natus sint quisquam voluptate aut nemo quae, numquam excepturi doloribus. Asperiores ipsam dolores libero, nam ab veniam nulla. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem animi perferendis quia, debitis maiores, vero corrupti incidunt consequuntur sed voluptas veniam adipisci hic excepturi! Et accusamus fuga alias ea atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet cum blanditiis nemo pariatur ipsum soluta debitis, ea fugit rem corrupti? Fuga quaerat repellat, sed veniam eveniet laboriosam provident dignissimos ea!</p>
+      </section>
+    </main>
+    <aside>
+      <h2>aside</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illum fugiat odit dolore. Ipsum placeat expedita ut vero. Odio, veritatis. Animi eum assumenda facilis nulla. Cum nihil dicta quis possimus.</p>
+    </aside>
+    <footer>
+      <h2>footer</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, sit mollitia similique deleniti ducimus nostrum architecto iure sunt eos autem nisi repudiandae amet ea inventore, voluptas corrupti itaque maiores odio?</p>
+    </footer>
+  </body>
+</html>
