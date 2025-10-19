@@ -16,8 +16,31 @@
 <h4>Lesson 6. Working with Fonts, Text Blocks, Lists, and Tables - <em>Completed 2025-08-18</em></h4>
 <h4>Lesson 7. Using External and Internal Links - <em>Completed 2025-08-26</em></h4>
 <h4>Lesson 8. Working with Colors, Images, and Multimedia - <em>Completed 2025-08-31</em></h4>
+<br>
+<h3>Part III: Advanced Web Page Design With CSS</h3>
 <h4>Lesson 9. Working with Margins, Padding, Alignment, and Floating - <em>Completed 2025-09-19</em></h4>
 <h4>Lesson 10. Understanding the CSS Box Model and Positioning - <em>Completed 2025-09-22</em></h4>
 <h4>Lesson 11. Using CSS to Do More with Lists, Text, and Navigation</h4>
 <h4>Lesson 12. Creating Layouts Using Modern CSS Techniques - <em>Completed 2025-10-04</em></h4>
-
+<h4>Lesson 13. Taking Control of Backgrounds and Borders</h4>
+<h4>Lesson 14. Using CSS Transformations and Transitions</h4>
+<h4>Lesson 15. Animating With CSS and the Canvas</h4>
+<br>
+<h3>Part IV: Responsive Web Design</h3>
+<h4>Lesson 16. Understanding the Importance of Responsive Web Design</h4>
+<h4>Lesson 17. Designing for Mobile Devices</h4>
+<h4>Lesson 18. Using Media Queries and Breakpoints</h4>
+<br>
+<h3>Part V: Getting Started With Dynamic Sites</h3>
+<h4>Lesson 19. Understanding Dynamic Websites and HTML5 Applications</h4>
+<h4>Lesson 20. Getting Started With JavaScript Programming</h4>
+<h4>Lesson 21. Working With the Document Object Model (DOM)</h4>
+<h4>Lesson 22. Using JavaScript Variables, String, and Arrays</h4>
+<h4>Lesson 23. Controlling Flow With Conditions and Loopes</h4>
+<h4>Lesson 24. Responding to Events and Using Windows</h4>
+<h4>Lesson 25. JavaScript Best Practices</h4>
+<h4>Lesson 26. Using Third-Party JavaScript Libraries and Frameworks</h4>
+<br>
+<h3>Part VI: Advanced Website Functionality and Management</h3>
+<h4>Lesson 27. Working With Web-Based Forms</h4>
+<h4>Lesson 28. Organizing and Managing a Website</h4>
