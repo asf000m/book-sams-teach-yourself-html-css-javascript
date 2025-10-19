@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lesson 4 - Understanding JavaScript</title>
+  </head>
+  <body>
+    <h1>Current Date and Time</h1>
+    <script>
+      let now = new Date();
+      let localTime = now.toString();
+      let utcTime = now.toGMTString();
+
+      document.write(`<p><b>Local time:</b> ${localTime}</p>`);
+      document.write(`<p><b>UTC time:</b> ${utcTime}</p>`);
+
+      let hours = now.getHours();
+      let minutes = now.getMinutes();
+      let seconds = now.getSeconds();
+      let miliseconds = now.getMilliseconds();
+
+      document.write(`<h2>`);
+      document.write(`${hours}:${minutes}:${seconds}.${miliseconds}`);
+      document.write(`</h2>`);
+    </script>
+  </body>
+</html>
