@@ -10,7 +10,7 @@
 <h4>Lesson 2. Structuring an HTML Document - <em>Completed 2025-07-11</em></h4>
 <h4>Lesson 3. Understanding Cascading Style Sheets - <em>Completed 2025-08-12</em></h4>
 <h4>Lesson 4. Understanding JavaScript - <em>Completed 2025-10-19</em></h4>
-<h4>Lesson 5. Validating and Debugging Your Code</h4>
+<h4>Lesson 5. Validating and Debugging Your Code - <em>Completed 2026-01-04</em></h4>
 <br>
 <h3>Part II: Building Blocks of Practical Web Design</h3>
 <h4>Lesson 6. Working with Fonts, Text Blocks, Lists, and Tables - <em>Completed 2025-08-18</em></h4>
